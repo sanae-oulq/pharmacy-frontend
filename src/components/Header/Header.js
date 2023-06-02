@@ -38,13 +38,13 @@ function Header() {
         },
         {
           title: 'Contact',
-           path: `${URL}/profile`,
+           path: `/Contact`,
           icon: <PersonIcon/>,
           cName: 'nav-text'
         },
         {
             title: 'A propos',
-            path: '/pharmacy/items',
+            path: '/About',
             icon: <LocalHospitalIcon/>,
             cName: 'nav-text'
         },
@@ -155,7 +155,7 @@ function Header() {
                             }      
                         </ul>
                         <div className="header-title">
-                            <h3 onClick={home}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pharmacies</h3>
+                            <h3 onClick={home}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PharmacyFinder</h3>
                         </div>
                         <ul className="mx-3">
                             {isSignedIn ?

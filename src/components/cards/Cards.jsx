@@ -15,6 +15,7 @@ const Cards = ({pharmacies}) => {
                             <Card.Text>
                                 {item.Address}
                             </Card.Text>
+                            <Card.Img src={item.img} />
                         </Card.Body>
                     </Card> 
                 </div>

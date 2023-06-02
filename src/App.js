@@ -44,6 +44,8 @@ import UpdateAppointment from './components/AppointmentManagement/UpdateAppointm
 import Orders from './components/OrderManagement/Orders';
 import Main from './components/Main'
 import Select from 'react-select';
+import Contact from './components/Contact';
+import About from './components/About';
 
 import { useEffect,useState } from 'react';
 
@@ -134,6 +136,8 @@ function App() {
       }
       </select> */}
             <Route path="/" exact component={Main} />
+            <Route path="/Contact" exact component={Contact} />
+            <Route path="/About" exact component={About} />
             <Route path="/patient/signin" exact component={PatientSignIn} />
             <Route path="/patient/signup" exact component={PatientSignUp} />
             <Route path="/admin/signin" exact component={AdminSignIn} />
